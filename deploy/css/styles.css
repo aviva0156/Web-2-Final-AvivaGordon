@@ -437,6 +437,8 @@ body {
 
 .Cards {
   background-color: #04536C;
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
 }
 
 .C1-4 {
