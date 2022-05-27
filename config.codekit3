@@ -181,6 +181,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/svg\/color-bars.png" : {
+      "ft" : 32768,
+      "iS" : 427,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/svg\/color-bars.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/svg\/double-chevron.svg" : {
       "ft" : 2097152,
       "miP" : 0,
