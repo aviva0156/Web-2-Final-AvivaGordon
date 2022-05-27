@@ -16,3 +16,8 @@
 .Thursday{
     background-color: black;
 }
+
+.DayBlocks{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
