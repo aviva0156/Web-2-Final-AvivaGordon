@@ -439,6 +439,11 @@ body {
   background-color: #04536C;
 }
 
+.C1-4 {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
 /* =============
     Base
 ============= */
