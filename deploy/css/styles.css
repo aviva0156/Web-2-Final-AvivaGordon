@@ -355,6 +355,49 @@ template {
 /* =============
     Typography
 ============= */
+h1 {
+  font-family: "Righteous";
+  color: white;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+h2 {
+  font-family: "Righteous";
+  color: white;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+}
+
+h3 {
+  font-family: "Righteous";
+  color: white;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+h5 {
+  font-family: "Righteous";
+  color: white;
+  font-weight: 400;
+  font-size: 24;
+}
+
+h6 {
+  font-family: "Righteous";
+  color: white;
+  font-size: 10;
+}
+
+body {
+  font-family: "Righteous";
+  color: white;
+  font-size: 12;
+}
+
 /* =============
     Buttons
 ============= */
@@ -384,4 +427,31 @@ textarea {
 ============= */
 /* =============
     Footer
+============= */
+/* =============
+    Base
+============= */
+body {
+  background-color: black;
+}
+
+.Cards {
+  background-color: #04536C;
+}
+
+/* =============
+    Base
+============= */
+.Weather {
+  background-color: #333333;
+}
+
+/* =============
+    Base
+============= */
+/* =============
+    Base
+============= */
+/* =============
+    Base
 ============= */

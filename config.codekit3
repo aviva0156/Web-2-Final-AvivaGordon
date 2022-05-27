@@ -258,6 +258,19 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/deploy\/img\/svg\/video-component.png" : {
+      "ft" : 32768,
+      "iS" : 1087464,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/svg\/video-component.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/svg\/WhiteGeotag.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -302,8 +315,8 @@
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dev\/index.html",
-      "oF" : 0
+      "oAP" : "\/deploy\/index.html",
+      "oF" : 2
     },
     "\/dev\/js\/scripts.js" : {
       "bF" : 0,
@@ -549,9 +562,9 @@
       "ec" : 1,
       "ft" : 4,
       "ma" : 0,
-      "oA" : 1,
+      "oA" : 0,
       "oAP" : "\/deploy\/css\/styles.css",
-      "oF" : 2,
+      "oF" : 3,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
