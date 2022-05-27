@@ -168,6 +168,19 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/deploy\/img\/svg\/cloudy.png" : {
+      "ft" : 32768,
+      "iS" : 816,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/svg\/cloudy.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/svg\/double-chevron.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -228,6 +241,19 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/deploy\/img\/svg\/planets.png" : {
+      "ft" : 32768,
+      "iS" : 149861,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/svg\/planets.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/svg\/Power-Button.svg" : {
       "ft" : 2097152,
       "miP" : 0,
@@ -237,6 +263,19 @@
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
+    },
+    "\/deploy\/img\/svg\/rain.png" : {
+      "ft" : 32768,
+      "iS" : 1160,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/svg\/rain.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/deploy\/img\/svg\/RedGeotag.svg" : {
       "ft" : 2097152,
@@ -257,6 +296,19 @@
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
+    },
+    "\/deploy\/img\/svg\/sun.png" : {
+      "ft" : 32768,
+      "iS" : 1400,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/svg\/sun.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
     },
     "\/deploy\/img\/svg\/video-component.png" : {
       "ft" : 32768,
