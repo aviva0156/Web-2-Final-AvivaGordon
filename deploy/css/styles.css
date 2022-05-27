@@ -467,7 +467,7 @@ body {
     Base
 ============= */
 .Video {
-  display: block;
+  width: auto;
 }
 
 /* =============
