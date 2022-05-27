@@ -438,6 +438,7 @@ body {
 .Cards {
   display: grid;
   grid-template-columns: 20% 20% 20% 20% 20%;
+  column-gap: 10px;
 }
 
 .C1 {
