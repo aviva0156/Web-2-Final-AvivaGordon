@@ -7,12 +7,23 @@ body{
 }
 
 .Cards{
-    background-color: #04536C;
     display:grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
 }
 
-.C1-4{
-display: grid;
-grid-template-columns: 25% 25% 25% 25%;
+.C1{
+    background-color: #04536C;
 }
+
+.C2{
+    background-color: #04536C;
+}
+
+.C3{
+    background-color: #04536C;
+}
+
+.C4{
+    background-color: #04536C;
+}
+
