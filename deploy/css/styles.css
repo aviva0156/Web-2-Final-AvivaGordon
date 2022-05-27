@@ -442,8 +442,18 @@ body {
 /* =============
     Base
 ============= */
+.Globe {
+  display: grid;
+  grid-template-columns: 75% 25%;
+}
+
 .Weather {
   background-color: #333333;
+}
+
+.DayBlocks {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
 }
 
 .Tuesday {
@@ -456,11 +466,6 @@ body {
 
 .Thursday {
   background-color: black;
-}
-
-.DayBlocks {
-  display: grid;
-  grid-template-columns: 33% 33% 33%;
 }
 
 /* =============
