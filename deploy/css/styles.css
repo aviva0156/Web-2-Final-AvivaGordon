@@ -434,6 +434,13 @@ footer {
   grid-template-columns: 33% 33% 33%;
 }
 
+.body {
+  font-family: "ariel";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+}
+
 /* =============
     Base
 ============= */
@@ -445,6 +452,12 @@ body {
   display: grid;
   grid-template-columns: 20% 20% 20% 20% 20%;
   column-gap: 10px;
+}
+@media (min-width: 768px) {
+  .Cards {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+  }
 }
 
 .C1 {
@@ -492,10 +505,12 @@ body {
 ============= */
 .Video {
   width: 100%;
+  display: block;
 }
 
-.img {
+img {
   width: 100%;
+  display: block;
 }
 
 /* =============
