@@ -73,6 +73,19 @@
       "q" : 100,
       "rq" : 75
     },
+    "\/deploy\/img\/img\/Nav.png" : {
+      "ft" : 32768,
+      "iS" : 19307,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/img\/Nav.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/img\/News-Release.jpg" : {
       "ft" : 16384,
       "iS" : 125206,
