@@ -428,6 +428,12 @@ textarea {
 /* =============
     Footer
 ============= */
+footer {
+  background-color: #003355;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
+
 /* =============
     Base
 ============= */
