@@ -478,9 +478,10 @@ body {
   background-color: #04536C;
 }
 
-.Carosel {
-  margin: auto;
-  width: 50%;
+.Carosel img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .Planet {

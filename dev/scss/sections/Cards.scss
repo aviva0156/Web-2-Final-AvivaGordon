@@ -33,8 +33,11 @@ body{
 }
 
 .Carosel{
-    margin:auto;
-    width:50%;
+    img{
+        display:block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 .Planet{
