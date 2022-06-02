@@ -478,10 +478,10 @@ body {
   background-color: #04536C;
 }
 
-.Carosel img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+.Carosel {
+  display: grid;
+  grid-template-columns: auto;
+  margin: auto;
 }
 
 .Planet {

@@ -33,11 +33,9 @@ body{
 }
 
 .Carosel{
-    img{
-        display:block;
-        margin-left: auto;
-        margin-right: auto;
-    }
+    display:grid;
+    grid-template-columns: auto;
+    margin:auto;
 }
 
 .Planet{
