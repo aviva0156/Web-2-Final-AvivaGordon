@@ -414,6 +414,14 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/dev\/html\/homepage.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/deploy\/html\/homepage.html",
+      "oF" : 2
+    },
     "\/dev\/index.html" : {
       "cB" : 0,
       "ft" : 8192,

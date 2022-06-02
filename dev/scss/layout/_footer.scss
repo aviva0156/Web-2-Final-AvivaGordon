@@ -8,10 +8,16 @@ footer{
     grid-template-columns: 33% 33% 33%;
 }
 
-.body{
-    font-family: 'ariel';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px; 
+.socials{
+    ul{
+        list-style-type: none;
+        padding:0;
+    }
 }
 
+.links{
+    ul{
+        list-style-type: none;
+        padding:0;
+    }
+}
