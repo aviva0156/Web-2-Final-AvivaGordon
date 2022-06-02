@@ -484,6 +484,20 @@ body {
   width: 50%;
 }
 
+.Planet {
+  display: block;
+}
+@media (min-width: 576px) {
+  .Planet {
+    display: none;
+  }
+}
+@media (min-width: 992px) {
+  .Planet {
+    display: inline-block;
+  }
+}
+
 /* =============
     Base
 ============= */

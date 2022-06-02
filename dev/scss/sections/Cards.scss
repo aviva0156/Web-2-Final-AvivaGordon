@@ -38,4 +38,14 @@ body{
     width:50%;
 }
 
+.Planet{
+    display: block;
 
+    @include sm{
+        display: none;
+    }
+
+    @include lg{
+        display: inline-block;
+    }
+}
