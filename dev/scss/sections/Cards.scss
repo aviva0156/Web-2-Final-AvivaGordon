@@ -8,12 +8,11 @@ body{
 
 .Cards{
     display:grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-columns: 25% 25% 25% 25%;
     column-gap: 10px;
 
-    @include md{
-        display: grid;
-        grid-template-columns: 25% 25% 25% 25%;
+    @include lg{
+        grid-template-columns: 20% 20% 20% 20% 20%;
     }
 }
 
@@ -39,7 +38,7 @@ body{
 }
 
 .Planet{
-    display: block;
+    display: none;
 
     @include sm{
         display: none;
