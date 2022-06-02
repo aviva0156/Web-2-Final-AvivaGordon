@@ -479,6 +479,11 @@ body {
   background-color: #04536C;
 }
 
+.Carosel {
+  margin: auto;
+  width: 50%;
+}
+
 /* =============
     Base
 ============= */
@@ -503,12 +508,9 @@ body {
   background-color: black;
 }
 
-.Ames .R .Info .img {
-  width: 65px;
-}
-
-.Red {
-  width: 65px;
+.Globe {
+  display: grid;
+  grid-template-columns: 70% 30%;
 }
 
 /* =============
