@@ -434,6 +434,10 @@ footer {
   grid-template-columns: 33% 33% 33%;
 }
 
+.socials {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+}
 .socials ul {
   list-style-type: none;
   padding: 0;
@@ -592,4 +596,12 @@ img {
 .buttons {
   display: grid;
   grid-template-columns: 50% 50%;
+}
+
+/* =============
+    Base
+============= */
+.Climate {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
 }
