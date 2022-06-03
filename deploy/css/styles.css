@@ -444,6 +444,10 @@ footer {
   padding: 0;
 }
 
+.LF {
+  grid-template-columns: 50% 50%;
+}
+
 /* =============
     Base
 ============= */
@@ -550,7 +554,18 @@ img {
 ============= */
 .Slider {
   display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-columns: 100%;
+}
+@media (min-width: 768px) {
+  .Slider {
+    grid-template-columns: 33% 33% 33%;
+  }
+}
+@media (min-width: 992px) {
+  .Slider {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+  }
 }
 
 /* =============
@@ -567,4 +582,14 @@ img {
 .Contact-Us {
   display: grid;
   grid-template-columns: 70% 30%;
+}
+
+.R {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: 50% 50%;
 }

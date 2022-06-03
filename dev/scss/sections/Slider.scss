@@ -3,7 +3,16 @@
 ============= */
 
 .Slider{
+    display:grid;
+    grid-template-columns: 100%;
+
+    @include md{
+        grid-template-columns: 33% 33% 33%;
+    }
+
+    @include lg{
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
+    }
 }
 
