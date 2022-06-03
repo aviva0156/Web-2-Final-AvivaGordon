@@ -563,3 +563,8 @@ img {
 .inputs {
   background-color: 22229;
 }
+
+.Contact-Us {
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
