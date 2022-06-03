@@ -452,9 +452,14 @@ body {
 }
 
 .Cards {
-  display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
-  column-gap: 10px;
+  display: block;
+}
+@media (min-width: 768px) {
+  .Cards {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    column-gap: 10px;
+  }
 }
 @media (min-width: 992px) {
   .Cards {
