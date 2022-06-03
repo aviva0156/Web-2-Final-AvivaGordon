@@ -7,9 +7,13 @@ body{
 }
 
 .Cards{
+    display:block;
+
+    @include md{
     display:grid;
     grid-template-columns: 25% 25% 25% 25%;
     column-gap: 10px;
+    }
 
     @include lg{
         grid-template-columns: 20% 20% 20% 20% 20%;

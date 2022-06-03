@@ -2,10 +2,7 @@
     Base
 ============= */
 
-.Artemis{
-    display: grid;
-    grid-template-columns: 50% 50%;
-}
+@import "html/Artemis.scss";
 
 .Recent{
     display:grid;
