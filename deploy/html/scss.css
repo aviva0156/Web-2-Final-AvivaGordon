@@ -5,3 +5,13 @@
   display: grid;
   grid-template-columns: 50% 50%;
 }
+
+.Recent{
+  display:grid;
+  grid-template-columns: 50% 50%;
+}
+
+.more-img{
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
