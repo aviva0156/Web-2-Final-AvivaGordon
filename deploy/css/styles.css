@@ -463,6 +463,11 @@ body {
   display: block;
   margin-left: 32px;
 }
+@media (min-width: 576px) {
+  .Cards2 {
+    display: block;
+  }
+}
 @media (min-width: 768px) {
   .Cards2 {
     display: grid;
@@ -487,12 +492,11 @@ body {
   margin-right: 14px;
   margin-top: 80px;
 }
-.C1 .link1 {
-  margin: auto;
-}
 
 .C2 {
   background-color: #04536C;
+  width: 270px;
+  height: 250px;
 }
 .C2 p {
   font-size: 16px;
@@ -503,22 +507,26 @@ body {
 
 .C3 {
   background-color: #04536C;
+  width: 270px;
+  height: 250px;
 }
 .C3 p {
-  font-size: 16px;
+  font-size: 14px;
   margin-left: 42px;
   margin-right: 14px;
-  margin-top: 80px;
+  margin-top: 65px;
 }
 
 .C4 {
   background-color: #04536C;
+  width: 270px;
+  height: 250px;
 }
 .C4 p {
-  font-size: 16px;
+  font-size: 14px;
   margin-left: 42px;
   margin-right: 14px;
-  margin-top: 80px;
+  margin-top: 65px;
 }
 
 .Carosel {
