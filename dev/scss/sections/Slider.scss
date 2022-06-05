@@ -5,6 +5,8 @@
 .Slider{
     display:grid;
     grid-template-columns: 100%;
+    margin-left: 125px;
+    column-gap: 25px;
 
     @include md{
         grid-template-columns: 33% 33% 33%;
@@ -18,4 +20,5 @@
 
 .doublechev{
     width: 30px;
+    margin: auto;
 }
