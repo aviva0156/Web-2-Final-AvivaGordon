@@ -9,24 +9,35 @@
 }
 
 .LC{
+    display:none;
+
+    @include sm{
+    display: block;
     width: 25px;
     margin-left: 60px;
     margin:auto;
+    }
 }
 
 .text{
     width: 570px;
     margin-right: 132px;
     margin-right: 57px;
+    margin-top: 70px;
     .body{
         p{
-            font-size: 15px;
+            font-size: 14px;
         }
     }
 }
 
 .rocket{
+    margin-top: 200px;
+width:300px;
+
+    @include lg{
     width:500px;
     margin: auto;
+    }
 }
 

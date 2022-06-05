@@ -3,11 +3,24 @@
 ============= */
 
 .Columbia{
+
+    @include sm{
+        display:block;
+        width:auto;
+    }
+
+    @include md{
+        display:grid;
+        grid-template-columns: 45% 10% 45%;
+    }
+
+    @include lg{
     display: grid;
     grid-template-columns: 25% 10% 25% 25% 15%;
     column-gap: 20px;
     margin-left: 66px;
     margin-top:130px;
+    }
 }
 
 .Chevron{
@@ -15,9 +28,25 @@
     margin:auto;
 }
 
+.img1{
+margin: auto;
+}
+
+.img2{
+    display:none;
+    @include lg{
+        display:block;
+    }
+}
+
 .img3{
+    display:none;
+
+    @include lg{
+    display:block;
     width: 85px;
     height: 500px;
+    }
 }
 
 .Columbia1{

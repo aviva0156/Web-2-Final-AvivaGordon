@@ -15,8 +15,15 @@
 }
 
 .environment{
+    display: none;
+
+
+
+    @include lg{
+        display:block;
     margin-left: 60px;
     width: 250px;
+    }
 }
 
 .events{
