@@ -6,8 +6,9 @@ body{
     background-color: black;
 }
 
-.Cards{
+.Cards2{
     display:block;
+    margin-left: 32px;
 
     @include md{
     display:grid;
@@ -22,24 +23,52 @@ body{
 
 .C1{
     background-color: #04536C;
+    width: 270px;
+    height: 250px;
+   p{
+       font-size: 16px;
+       margin-left: 42px;
+       margin-right: 14px;
+       margin-top: 80px;
+   }
+   .link1{
+       margin:auto;
+   }
 }
 
 .C2{
     background-color: #04536C;
+    p{
+        font-size: 16px;
+       margin-left: 42px;
+       margin-right: 14px;
+       margin-top: 80px;
+    }
 }
 
 .C3{
     background-color: #04536C;
+    p{
+        font-size: 16px;
+       margin-left: 42px;
+       margin-right: 14px;
+       margin-top: 80px;
+    }
 }
 
 .C4{
     background-color: #04536C;
+    p{
+        font-size: 16px;
+       margin-left: 42px;
+       margin-right: 14px;
+       margin-top: 80px;
+    }
 }
 
 .Carosel{
-    display:grid;
-    grid-template-columns: auto;
-    margin:auto;
+    width: 220px;
+    margin: auto;
 }
 
 .Planet{

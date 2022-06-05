@@ -459,41 +459,70 @@ body {
   background-color: black;
 }
 
-.Cards {
+.Cards2 {
   display: block;
+  margin-left: 32px;
 }
 @media (min-width: 768px) {
-  .Cards {
+  .Cards2 {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
     column-gap: 10px;
   }
 }
 @media (min-width: 992px) {
-  .Cards {
+  .Cards2 {
     grid-template-columns: 20% 20% 20% 20% 20%;
   }
 }
 
 .C1 {
   background-color: #04536C;
+  width: 270px;
+  height: 250px;
+}
+.C1 p {
+  font-size: 16px;
+  margin-left: 42px;
+  margin-right: 14px;
+  margin-top: 80px;
+}
+.C1 .link1 {
+  margin: auto;
 }
 
 .C2 {
   background-color: #04536C;
 }
+.C2 p {
+  font-size: 16px;
+  margin-left: 42px;
+  margin-right: 14px;
+  margin-top: 80px;
+}
 
 .C3 {
   background-color: #04536C;
+}
+.C3 p {
+  font-size: 16px;
+  margin-left: 42px;
+  margin-right: 14px;
+  margin-top: 80px;
 }
 
 .C4 {
   background-color: #04536C;
 }
+.C4 p {
+  font-size: 16px;
+  margin-left: 42px;
+  margin-right: 14px;
+  margin-top: 80px;
+}
 
 .Carosel {
-  display: grid;
-  grid-template-columns: auto;
+  width: 220px;
   margin: auto;
 }
 
