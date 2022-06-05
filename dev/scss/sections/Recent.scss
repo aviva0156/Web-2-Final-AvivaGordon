@@ -5,8 +5,14 @@
 .Recent{
     display:grid;
     grid-template-columns: 10% 45% 45%;
+    column-gap: 60px;
 }
 
 .LC{
     width: 25px;
+    margin-left: 60px;
+}
+
+.text{
+    width: 570px;
 }

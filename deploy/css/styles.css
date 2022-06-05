@@ -372,11 +372,11 @@ h2 {
 }
 
 h3 {
-  font-family: "Righteous";
+  font-family: "Gill Sans";
   color: white;
   font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
+  font-weight: 300;
+  font-size: 18px;
 }
 
 h5 {
@@ -640,10 +640,16 @@ img {
 .Recent {
   display: grid;
   grid-template-columns: 10% 45% 45%;
+  column-gap: 60px;
 }
 
 .LC {
   width: 25px;
+  margin-left: 60px;
+}
+
+.text {
+  width: 570px;
 }
 
 /* =============
@@ -661,14 +667,25 @@ img {
 
 .Pin {
   margin-left: 148px;
+  width: 800px;
 }
 
 .P {
   margin-right: 21px;
 }
 
-.text2 {
+p {
+  font-family: "Righteous";
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.text2 p {
   margin-right: 151px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 14px;
 }
 
 /* =============
