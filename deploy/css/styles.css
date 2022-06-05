@@ -770,6 +770,11 @@ p {
 .img {
   display: grid;
   grid-template-columns: 20% 20% 20% 20% 20%;
+  column-gap: 15px;
+}
+
+.L {
+  width: 20px;
 }
 
 /* =============
