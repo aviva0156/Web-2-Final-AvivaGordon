@@ -631,8 +631,21 @@ img {
   grid-template-columns: 60% 40%;
 }
 
-.text {
+.text1 {
   font-size: 18px;
+  margin-left: 112px;
+}
+
+.Pin {
+  margin-left: 148px;
+}
+
+.P {
+  margin-right: 21px;
+}
+
+.text2 {
+  margin-right: 151px;
 }
 
 /* =============
