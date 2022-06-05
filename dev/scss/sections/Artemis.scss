@@ -19,8 +19,14 @@
 }
 
 .Pin{
+    margin:auto;
+    margin-left: 110px;
+
+    @include md{
+    margin:auto;
     margin-left: 148px;
-    width: 800px;
+    width:fit-content;
+    }
 }
 
 .P{
