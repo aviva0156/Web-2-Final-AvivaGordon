@@ -606,6 +606,10 @@ img {
   grid-template-columns: 33% 33% 33%;
 }
 
+.events {
+  margin-right: 102px;
+}
+
 /* =============
     Base
 ============= */
