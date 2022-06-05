@@ -5,8 +5,18 @@
 .Climate{
     display:grid;
     grid-template-columns: 33% 33% 33%;
+    column-gap: 40px;
 }
 
 .events{
     margin-right: 102px;
+}
+
+.environment{
+    margin-left: 60px;
+    width: 250px;
+}
+
+.events{
+    width: 400px;
 }

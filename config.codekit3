@@ -384,6 +384,19 @@
       "plM" : 52780316221407,
       "prP" : 0
     },
+    "\/deploy\/img\/svg\/chevron-left.png" : {
+      "ft" : 32768,
+      "iS" : 349,
+      "oA" : 0,
+      "oAP" : "\/deploy\/img\/svg\/chevron-left.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/deploy\/img\/svg\/cloudy.png" : {
       "ft" : 32768,
       "iS" : 816,
