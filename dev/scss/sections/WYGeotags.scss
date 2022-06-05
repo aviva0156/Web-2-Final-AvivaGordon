@@ -1,0 +1,19 @@
+/* =============
+    Base
+============= */
+
+.GEO{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+}
+
+.WhiteGeo{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.YellowGeo{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
