@@ -775,6 +775,11 @@ p {
 
 .L {
   width: 20px;
+  margin: auto;
+}
+
+.button {
+  margin: auto;
 }
 
 /* =============
@@ -782,11 +787,16 @@ p {
 ============= */
 .vids {
   display: grid;
-  grid-template-columns: 33% 33% 33%;
+  grid-template-columns: 10% 30% 30% 30%;
+  column-gap: 20px;
 }
 
 .L {
   width: 20px;
+  margin: auto;
+}
+
+.button {
   margin: auto;
 }
 
