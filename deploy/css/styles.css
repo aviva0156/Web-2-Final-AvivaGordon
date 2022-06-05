@@ -785,6 +785,11 @@ p {
   grid-template-columns: 33% 33% 33%;
 }
 
+.L {
+  width: 20px;
+  margin: auto;
+}
+
 /* =============
     Base
 ============= */
