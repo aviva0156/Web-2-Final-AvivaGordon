@@ -617,3 +617,31 @@ img {
 /* =============
     Base
 ============= */
+.Recent {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+/* =============
+    Base
+============= */
+.Artemis {
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+.text {
+  font-size: 18px;
+}
+
+/* =============
+    Base
+============= */
+.img {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+/* =============
+    Base
+============= */
