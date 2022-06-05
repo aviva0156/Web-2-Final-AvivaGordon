@@ -622,7 +622,7 @@ img {
     Base
 ============= */
 .Slider {
-  display: grid;
+  display: block;
   grid-template-columns: 100%;
   margin-left: 125px;
   column-gap: 25px;
@@ -756,8 +756,14 @@ img {
 ============= */
 .Artemis {
   display: grid;
-  grid-template-columns: 60% 40%;
-  margin-top: 120px;
+  grid-template-columns: 100%;
+}
+@media (min-width: 992px) {
+  .Artemis {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    margin-top: 120px;
+  }
 }
 
 .text1 {
@@ -771,7 +777,13 @@ img {
 }
 
 .P {
+  display: none;
   margin-right: 21px;
+}
+@media (min-width: 992px) {
+  .P {
+    display: block;
+  }
 }
 
 p {
@@ -792,9 +804,16 @@ p {
     Base
 ============= */
 .img {
-  display: grid;
-  grid-template-columns: 20% 20% 20% 20% 20%;
-  column-gap: 15px;
+  display: block;
+  margin-left: 30px;
+}
+@media (min-width: 992px) {
+  .img {
+    display: grid;
+    grid-template-columns: 10% 22% 22% 22% 22%;
+    column-gap: 15px;
+    margin-top: 50px;
+  }
 }
 
 .L {
@@ -823,6 +842,8 @@ p {
 
 .button {
   margin: auto;
+  margin-bottom: 150px;
+  margin-top: 50px;
 }
 
 /* =============
