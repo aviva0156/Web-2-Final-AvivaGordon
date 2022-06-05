@@ -29,3 +29,15 @@
     display: grid;
     grid-template-columns: 70% 30%;
 }
+
+.Information{
+    display: grid;
+    grid-template-columns: 15% 85%;
+    column-gap: 20px;
+}
+
+.Wtext{
+display: grid;
+grid-template-columns: 50% 50%;
+grid-template-rows: 50% 50%;
+}

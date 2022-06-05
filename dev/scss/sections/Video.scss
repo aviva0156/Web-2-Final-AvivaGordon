@@ -4,7 +4,8 @@
 
 .Video{
     width:100%;
-    display: block;
+    display: grid;
+    grid-template-columns: 100%;
 }
 
 img{
