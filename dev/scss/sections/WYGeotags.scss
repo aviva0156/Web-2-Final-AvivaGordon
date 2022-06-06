@@ -4,23 +4,19 @@
 
 .GEO{
     display: grid;
-    grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
-    width: 300px;
-    margin-left: 1000px;
+    width: 70px;
+}
+
+.C-F{
+    display:grid;
+    grid-template-rows: 50% 50%;
+    width: 70px;
+}
+
+.table{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    margin-left: 900px;
     column-gap: 20px;
-}
-
-.WhiteGeo{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    height: 100px;
-    width:100px;
-}
-
-.YellowGeo{
-    display: grid;
-    grid-template-columns: 50% 50%;
-    height: 100px;
-    width:100px;
 }
