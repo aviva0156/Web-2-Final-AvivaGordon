@@ -12,14 +12,14 @@
 
     @include md{
         display:grid;
-        grid-template-columns: 45% 10% 45%;
+        grid-template-columns: 40% 10% 40% 10%;
     }
 
     @include lg{
     display: grid;
     grid-template-columns: 25% 10% 25% 25% 15%;
     column-gap: 20px;
-    margin-left: 66px;
+    margin-left: 5px;
     margin-top:130px;
     }
 }
@@ -32,29 +32,38 @@
 .img1{
 margin: auto;
 display:block;
-margin-left: 55px;
+width: 325px;
 
-@include md{
-margin-left: 100px;
-}
+
+
 
 
 }
 
 .img2{
     display:none;
+
+    @include md{
+        display:block;
+        width: 320px;
+    }
     @include lg{
         display:block;
+        width: 325px;
     }
 }
 
 .img3{
     display:none;
 
+    @include md{
+        display: none;
+    }
+
     @include lg{
     display:block;
-    width: 85px;
-    height: 500px;
+    width: 83px;
+    height: 400px;
     }
 }
 

@@ -5,8 +5,12 @@
 .vids{
 display: grid;
 
-@include md{
+@include sm{
     grid-template-rows: 33% 33% 33%;
+}
+
+@include md{
+    grid-template-columns: 33% 33% 33%;
 }
 
 @include lg{

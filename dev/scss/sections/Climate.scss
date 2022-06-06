@@ -11,23 +11,31 @@
 
     
 
-    @include md{
+    @include sm{
     display:grid;
-    grid-template-columns:  40% 40%;
+    grid-template-columns:  25% 25% 50%;
     column-gap: 60px;
     margin-top: 120px;
     }
 
+    @include md{
+        display:grid;
+        grid-template-columns: 20% 40% 40%;
+    }
 
     @include lg{
         display: grid;
-        grid-template-columns: 20% 40% 40%;
+        grid-template-columns: 33% 33% 33%;
     }
 
 }
 
 .events{
     display:none;
+
+    @include sm{
+        display: block;
+    }
 
     @include md{
         display:block;
@@ -40,14 +48,18 @@
     display: block;
     @include sm{
         margin-left: 20px;
+        width:100px;
     }
 
-
+    @include md{
+    margin-left: 40px;
+    width: 100px;
+}
 
     @include lg{
     display:block;
-    margin-left: 20px;
     width: 250px;
+    margin-left: 40px;
     }
 }
 
