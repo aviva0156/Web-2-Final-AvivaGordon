@@ -996,14 +996,18 @@ p {
   }
 }
 
+.button2 {
+  display: block;
+}
 @media (min-width: 576px) {
-  .button {
+  .button2 {
     width: 180px;
     margin-top: 30px;
+    margin-bottom: 200px;
   }
 }
 @media (min-width: 768px) {
-  .button {
+  .button2 {
     margin: auto;
     margin-bottom: 150px;
     margin-top: 50px;

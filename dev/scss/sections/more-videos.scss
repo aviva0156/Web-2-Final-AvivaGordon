@@ -26,11 +26,13 @@ column-gap: 20px;
     }
 }
 
-.button{
+.button2{
+    display:block;
 
     @include sm{
         width: 180px;
         margin-top: 30px;
+        margin-bottom: 200px;
     }
 
     @include md{
