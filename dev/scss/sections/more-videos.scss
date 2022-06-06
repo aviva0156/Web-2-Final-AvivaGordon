@@ -4,17 +4,38 @@
 
 .vids{
 display: grid;
+
+@include md{
+    grid-template-rows: 33% 33% 33%;
+}
+
+@include lg{
 grid-template-columns: 10% 30% 30% 30%;
 column-gap: 20px;
 }
+}
 
 .L{
-    width:20px;
-    margin:auto;
+    @include sm{
+        display: none;
+    }
+
+    @include md{
+        width:20px;
+        margin:auto;
+    }
 }
 
 .button{
+
+    @include sm{
+        width: 180px;
+        margin-top: 30px;
+    }
+
+    @include md{
     margin: auto;
     margin-bottom: 150px;
     margin-top: 50px;
+    }
 }
