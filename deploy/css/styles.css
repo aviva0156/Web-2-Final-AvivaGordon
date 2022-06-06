@@ -598,7 +598,6 @@ body {
 .Wtext {
   display: grid;
   grid-template-columns: 50% 50%;
-  grid-template-rows: 50% 50%;
 }
 
 /* =============
@@ -622,7 +621,7 @@ img {
     Base
 ============= */
 .Slider {
-  display: block;
+  display: grid;
   grid-template-columns: 100%;
   margin-left: 125px;
   column-gap: 25px;
