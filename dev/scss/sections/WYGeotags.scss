@@ -3,9 +3,23 @@
 ============= */
 
 .GEO{
+    @include sm{
+        display: grid;
+        grid-template-rows: 50% 50%;
+        width: 30px;
+    }
+
+    @include md{
+        display: grid;
+        grid-template-rows:50% 50%;
+        width: 40px;
+    }
+
+    @include lg{
     display: grid;
     grid-template-rows: 50% 50%;
     width: 70px;
+    }
 }
 
 .C-F{
@@ -17,6 +31,22 @@
 .table{
     display:grid;
     grid-template-columns: 50% 50%;
-    margin-left: 900px;
     column-gap: 20px;
+
+   
+
+    @include sm{
+        margin-left: 550px;
+        width:30px;
+    }
+
+    @include md{
+        margin-left: 800px;
+        width:55px;
+    }
+
+    @include lg{
+    margin-left: 1000px;
+    width:70px;
+    }
 }

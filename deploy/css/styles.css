@@ -589,6 +589,11 @@ body {
   grid-template-columns: 70% 30%;
 }
 
+.G {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 .Information {
   display: grid;
   grid-template-columns: 15% 85%;
@@ -955,10 +960,26 @@ p {
 /* =============
     Base
 ============= */
-.GEO {
-  display: grid;
-  grid-template-rows: 50% 50%;
-  width: 70px;
+@media (min-width: 576px) {
+  .GEO {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    width: 30px;
+  }
+}
+@media (min-width: 768px) {
+  .GEO {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    width: 40px;
+  }
+}
+@media (min-width: 992px) {
+  .GEO {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    width: 70px;
+  }
 }
 
 .C-F {
@@ -970,6 +991,23 @@ p {
 .table {
   display: grid;
   grid-template-columns: 50% 50%;
-  margin-left: 900px;
   column-gap: 20px;
+}
+@media (min-width: 576px) {
+  .table {
+    margin-left: 550px;
+    width: 30px;
+  }
+}
+@media (min-width: 768px) {
+  .table {
+    margin-left: 800px;
+    width: 55px;
+  }
+}
+@media (min-width: 992px) {
+  .table {
+    margin-left: 1000px;
+    width: 70px;
+  }
 }
