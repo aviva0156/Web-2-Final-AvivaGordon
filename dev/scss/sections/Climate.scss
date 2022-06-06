@@ -53,13 +53,15 @@
 
     @include md{
     margin-left: 40px;
-    width: 100px;
+    width: 200px;
+    margin-top: 100px;
 }
 
     @include lg{
     display:block;
     width: 250px;
-    margin-left: 40px;
+    margin-left: 140px;
+    margin-top: 100px;
     }
 }
 

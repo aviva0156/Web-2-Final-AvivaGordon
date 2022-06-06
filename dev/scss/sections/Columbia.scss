@@ -6,13 +6,16 @@
     margin-top: 100px;
 
     @include sm{
-        display:block;
+        display:grid;
+        grid-template-columns: 40% 10% 50%;
         width:auto;
+        margin-left: 100px;
     }
 
     @include md{
         display:grid;
         grid-template-columns: 40% 10% 40% 10%;
+        margin-left: 0%;
     }
 
     @include lg{
@@ -68,9 +71,10 @@ width: 325px;
 }
 
 .Columbia1{
+    display: none;
 
     @include sm{
-        display:none;
+        display:block;
     }
     @include md{
         display:block;
@@ -78,7 +82,7 @@ width: 325px;
         margin-left: 75px;
     }
     @include lg{
-        margin-left:140px;
+        margin-left:50px;
     }
     @include xl{
         margin-left: 66px;
