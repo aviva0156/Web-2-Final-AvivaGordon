@@ -16,11 +16,28 @@
 }
 
 .L{
+    display:block;
     width:20px;
     margin:auto;
 }
 
-.button{
+
+.button1{
+    display:block;
+    width: 180px;
     margin: auto;
-    width:200px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+
+    @include sm{
+        width: 180px;
+        margin-top: 30px;
+        margin-bottom: 200px;
+    }
+
+    @include md{
+    margin: auto;
+    margin-bottom: 150px;
+    margin-top: 50px;
+    }
 }
