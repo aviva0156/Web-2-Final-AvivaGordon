@@ -178,17 +178,24 @@
     <div class="Left">
       <h4>Contact Us</h4>
         <div class="inputs">
-          <input type="text" id="Fname" name="Fname">
-          <input type="text" id="Lname" name="Lname">
-          <input type="email" id="email" name="email">
-          <input type="number" id="phone" name="phone">
-          <input type="text" id="message" name="message">
+          <form action="ContactUs">
+            <label for="Fname">First Name:</label>
+            <input type="text" id="Fname" name="Fname"><br><br>
+            <label for="Lname">Last Name:</label>
+            <input type="text" id="Lname" name="Lname"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <label for="phone">Phone Number:</label>
+            <input type="number" id="phone" name="phone">
+            <label for="message">Message:</label>
+            <input type="text" id="message" name="message">
+          </form>
         </div>
       </div>
 
       <div class="Right">
         <div class="buttons">
-          <img src="img/svg/Power-Button.svg" alt="Power Button">
+          <button type="submit"><img src="img/svg/Power-Button.svg" alt="Power Button"></button>
           <img src="img/svg/Rocket.svg" alt="Rocket">
         </div>
             <div class="T">
@@ -207,27 +214,30 @@
         <img src="img/svg/Logo.svg" alt="logo">
       </div>
         <div class="logo-type">
-          <h5>National Aeronautics and</h5>
-          <h5> Space Administration</h5>
+          <p>National Aeronautics and</p>
+          <p> Space Administration</p>
           <p>NASA Official: Brain Bunbar</p>
         </div>
     </div>
 
-   
-      <ul class="socials">
-        <li><img src="img/svg/instagram.svg" alt="instagram"></li>
-        <li><img src="img/svg/linkedin-in.svg" alt="linkedin"></li>
-        <li><img src="img/svg/facebook-square.svg" alt="facebook"></li>
-      </ul>
-    
+
+    <div class="Socials-Group">
+      <div class="Instagram">
+        <img src="img/svg/instagram.svg" alt="instagram">
+      </div>
+      <div class="Linked">
+        <img src="img/svg/linkedin-in.svg" alt="linkedin">
+      </div>
+      <div class="Facebook">
+        <img src="img/svg/facebook-square.svg" alt="facebook">
+      </div>
+    </div>
 
     <div class="links">
-      <ul>
-        <li>About</li>
-        <li>Gallery</li>
-        <li>Mission</li>
-        <li>Contact</li>
-      </ul>
+        <h3>About</h3>
+        <h3>Gallery</h3>
+        <h3>Mission</h3>
+        <h3>Contact</h3>
     </div>
   </footer>
 
