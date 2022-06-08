@@ -25,7 +25,10 @@
 .C-F{
     display:grid;
     grid-template-rows: 50% 50%;
-    width: 70px;
+    width: 200px;
+    h4{
+        text-align: center;
+    }
 }
 
 .table{

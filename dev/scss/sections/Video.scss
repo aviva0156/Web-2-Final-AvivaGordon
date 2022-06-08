@@ -3,6 +3,10 @@
 ============= */
 
 .Video{
+    h2{
+    letter-spacing: 2px;
+    }
+    
     @include sm{
     width: 336px;
     margin: auto;
