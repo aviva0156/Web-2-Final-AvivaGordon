@@ -25,6 +25,7 @@ footer{
 .Instagram{
         margin: auto;
         width: 30px;
+        margin-top: 30px;
     
     @include md{
     width:40px;
@@ -41,6 +42,7 @@ footer{
     
     margin: auto;
     width:30px;
+    margin-top: 30px;
     
 
     @include md{
@@ -58,6 +60,7 @@ footer{
     
     margin: auto;
     width:30px;
+    margin-top: 30px;
     
 
     @include md{
@@ -71,11 +74,12 @@ footer{
     }
 }
 .links{
-    margin:auto;
     @include sm{
+        margin:auto;
         display: grid;
         grid-template-columns: 50% 50%;
         grid-template-rows: 50% 50%;
+        width:auto;
     }
 
     
@@ -101,5 +105,13 @@ footer{
     width: 100px;
     margin-left: 20px;
     margin-top: 30px;
+    }
+}
+
+.logo-type{
+    p{
+        vertical-align: top;
+        font-size: 13px;
+        letter-spacing: 2px;
     }
 }

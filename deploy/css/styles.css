@@ -459,6 +459,7 @@ footer {
 .Instagram {
   margin: auto;
   width: 30px;
+  margin-top: 30px;
 }
 @media (min-width: 768px) {
   .Instagram {
@@ -476,6 +477,7 @@ footer {
 .Linked {
   margin: auto;
   width: 30px;
+  margin-top: 30px;
 }
 @media (min-width: 768px) {
   .Linked {
@@ -493,6 +495,7 @@ footer {
 .Facebook {
   margin: auto;
   width: 30px;
+  margin-top: 30px;
 }
 @media (min-width: 768px) {
   .Facebook {
@@ -507,14 +510,13 @@ footer {
   }
 }
 
-.links {
-  margin: auto;
-}
 @media (min-width: 576px) {
   .links {
+    margin: auto;
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 50% 50%;
+    width: auto;
   }
 }
 @media (min-width: 992px) {
@@ -542,6 +544,12 @@ footer {
     margin-left: 20px;
     margin-top: 30px;
   }
+}
+
+.logo-type p {
+  vertical-align: top;
+  font-size: 13px;
+  letter-spacing: 2px;
 }
 
 /* =============
