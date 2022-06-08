@@ -437,8 +437,18 @@ textarea {
 ============= */
 footer {
   background-color: #003355;
-  display: grid;
-  grid-template-columns: 33% 33% 33%;
+}
+@media (min-width: 576px) {
+  footer {
+    display: grid;
+    grid-template-rows: 33% 33% 33%;
+  }
+}
+@media (min-width: 992px) {
+  footer {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+  }
 }
 
 .Socials-Group {
@@ -447,27 +457,72 @@ footer {
 }
 
 .Instagram {
-  width: 50px;
-  margin-top: 50px;
-  margin-left: 150px;
+  margin: auto;
+  width: 30px;
+}
+@media (min-width: 768px) {
+  .Instagram {
+    width: 40px;
+  }
+}
+@media (min-width: 992px) {
+  .Instagram {
+    width: 50px;
+    margin-top: 50px;
+    margin-left: 150px;
+  }
 }
 
 .Linked {
-  width: 50px;
-  margin-top: 50px;
-  margin-left: 75px;
+  margin: auto;
+  width: 30px;
+}
+@media (min-width: 768px) {
+  .Linked {
+    width: 40px;
+  }
+}
+@media (min-width: 992px) {
+  .Linked {
+    width: 50px;
+    margin-top: 50px;
+    margin-left: 75px;
+  }
 }
 
 .Facebook {
-  width: 50px;
-  margin-top: 50px;
-  margin-right: 100px;
+  margin: auto;
+  width: 30px;
+}
+@media (min-width: 768px) {
+  .Facebook {
+    width: 40px;
+  }
+}
+@media (min-width: 992px) {
+  .Facebook {
+    width: 50px;
+    margin-top: 50px;
+    margin-right: 100px;
+  }
 }
 
 .links {
-  display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
-  margin-top: 45px;
+  margin: auto;
+}
+@media (min-width: 576px) {
+  .links {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+  }
+}
+@media (min-width: 992px) {
+  .links {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin-top: 45px;
+  }
 }
 
 .LF {
@@ -477,9 +532,16 @@ footer {
 }
 
 .logo {
-  width: 100px;
-  margin-left: 20px;
+  width: 80px;
+  margin-left: 50px;
   margin-top: 30px;
+}
+@media (min-width: 992px) {
+  .logo {
+    width: 100px;
+    margin-left: 20px;
+    margin-top: 30px;
+  }
 }
 
 /* =============
