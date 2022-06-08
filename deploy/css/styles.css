@@ -1117,11 +1117,13 @@ p {
 @media (min-width: 576px) {
   .vids {
     grid-template-rows: 33% 33% 33%;
+    row-gap: 20px;
   }
 }
 @media (min-width: 768px) {
   .vids {
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 20% 40% 40%;
+    column-gap: 20px;
   }
 }
 @media (min-width: 992px) {
@@ -1144,6 +1146,15 @@ p {
   }
 }
 
+.studying {
+  display: none;
+}
+@media (min-width: 992px) {
+  .studying {
+    display: block;
+  }
+}
+
 .button2 {
   display: block;
   width: 180px;
@@ -1152,9 +1163,9 @@ p {
 }
 @media (min-width: 576px) {
   .button2 {
-    width: 180px;
-    margin-top: 30px;
-    margin-bottom: 200px;
+    width: 200px;
+    margin-top: 20px;
+    margin-bottom: 150px;
   }
 }
 @media (min-width: 768px) {
