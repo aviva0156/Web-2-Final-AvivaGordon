@@ -33,6 +33,9 @@
 .G{
     margin-left: 10px;
     margin-right: 10px;
+    h2{
+    letter-spacing: 2px;
+    }
 }
 
 .Information{
@@ -44,4 +47,27 @@
 .Wtext{
 display: grid;
 grid-template-columns: 50% 50%;
+.ARC{
+    h5{
+        letter-spacing: 1px;
+    }
+    .day-information{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 33% 33% 33%;
+        
+    }
+}
+}
+
+.Info{
+    h4{
+        letter-spacing: 2px;
+    }
+}
+
+.day-information{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 33% 33% 33%;
 }

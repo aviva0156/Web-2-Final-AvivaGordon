@@ -16,7 +16,6 @@
 .inputs{
     background-color: #022229;
     grid-template-rows: 20% 20% 20% 40%;
-
     gap: 50px;
 }
 
@@ -27,9 +26,14 @@
 }
 
 
-.buttons{
+.BB{
     display: grid;
     grid-template-columns: 50% 50%;
     width:180px;
     margin-top: 150px;
+
+    .button{
+        border:#04536C;
+        color:#022229;
+    }
 }

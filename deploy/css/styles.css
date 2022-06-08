@@ -485,6 +485,13 @@ footer {
 /* =============
     Base
 ============= */
+.AN {
+  margin-left: 30px;
+}
+.AN h1 {
+  letter-spacing: 2px;
+}
+
 body {
   background-color: black;
 }
@@ -522,6 +529,12 @@ body {
   margin-right: 14px;
   margin-top: 80px;
 }
+.C1 .link1 {
+  text-align: center;
+}
+.C1 .link1 a {
+  color: #44A1E0;
+}
 
 .C2 {
   background-color: #04536C;
@@ -534,6 +547,12 @@ body {
   margin-right: 14px;
   margin-top: 80px;
 }
+.C2 .link2 {
+  text-align: center;
+}
+.C2 .link2 a {
+  color: #44A1E0;
+}
 
 .C3 {
   background-color: #04536C;
@@ -541,10 +560,16 @@ body {
   height: 250px;
 }
 .C3 p {
-  font-size: 14px;
+  font-size: 12px;
   margin-left: 42px;
   margin-right: 14px;
   margin-top: 65px;
+}
+.C3 .link3 {
+  text-align: center;
+}
+.C3 .link3 a {
+  color: #44A1E0;
 }
 
 .C4 {
@@ -553,10 +578,16 @@ body {
   height: 250px;
 }
 .C4 p {
-  font-size: 14px;
+  font-size: 12px;
   margin-left: 42px;
   margin-right: 14px;
   margin-top: 65px;
+}
+.C4 .link4 {
+  text-align: center;
+}
+.C4 .link4 a {
+  color: #44A1E0;
 }
 
 .Carosel {
@@ -611,6 +642,9 @@ body {
   margin-left: 10px;
   margin-right: 10px;
 }
+.G h2 {
+  letter-spacing: 2px;
+}
 
 .Information {
   display: grid;
@@ -621,6 +655,24 @@ body {
 .Wtext {
   display: grid;
   grid-template-columns: 50% 50%;
+}
+.Wtext .ARC h5 {
+  letter-spacing: 1px;
+}
+.Wtext .ARC .day-information {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 33% 33% 33%;
+}
+
+.Info h4 {
+  letter-spacing: 2px;
+}
+
+.day-information {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 33% 33% 33%;
 }
 
 /* =============
@@ -707,11 +759,15 @@ img {
   margin-top: 30px;
 }
 
-.buttons {
+.BB {
   display: grid;
   grid-template-columns: 50% 50%;
   width: 180px;
   margin-top: 150px;
+}
+.BB .button {
+  border: #04536C;
+  color: #022229;
 }
 
 /* =============
