@@ -1015,6 +1015,12 @@ img {
   margin: auto;
   margin-left: 110px;
 }
+.Pin .button {
+  color: #D5D5DB;
+  font-size: 16px;
+  font-family: "Gill Sans";
+  font-size: 24px;
+}
 @media (min-width: 768px) {
   .Pin {
     margin: auto;

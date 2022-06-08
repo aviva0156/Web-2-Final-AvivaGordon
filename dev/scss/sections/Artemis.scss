@@ -21,12 +21,20 @@
 .Pin{
     margin:auto;
     margin-left: 110px;
+    
+    .button{
+        color: #D5D5DB;
+        font-size: 16px;
+        font-family: 'Gill Sans';
+        font-size: 24px;
+    }
 
     @include md{
     margin:auto;
     margin-left: 148px;
     width:fit-content;
     }
+    
 }
 
 .P{
